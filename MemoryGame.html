@@ -1,0 +1,39 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+</head>
+<div class="align-center">
+
+    <h1 class="heading">Math Memory Game</h1>
+
+    <button class="btn" id="btn-start">
+        Start
+    </button>
+
+    <div class="cards-container">
+        <div class="flip-container hide" id="card-template">
+            <div class="flipper">
+                <div class="front">
+                    <label>Formulas</label>
+                </div>
+                <div class="back">
+                    <label></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timer">
+        <label id="minutes"></label>:
+        <label id="seconds"></label>
+        <div class="time">
+            MY BEST TIME: <span id="bestTime"></span>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="style.js"></script>
+</html>
